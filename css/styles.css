@@ -79,7 +79,6 @@ img {
   list-style-type: none;
   display: flex;
   gap: 40px;
-  align-items: center;
 }
 
 .nav-link {
