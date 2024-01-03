@@ -38,6 +38,14 @@ img {
 
 /* Top Line */
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+}
+
 .logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -58,12 +66,17 @@ img {
   color: #f4f4fd;
 }
 
+.nav-first {
+  display: flex;
+}
+
 .nav {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
   list-style-type: none;
+  display: flex;
 }
 
 .nav-link {
@@ -82,8 +95,13 @@ img {
   text-decoration: underline;
 }
 
+.nav .nav-link {
+  display: block;
+}
+
 .adress {
   font-style: normal;
+  display: flex;
 }
 
 .adress-list {
