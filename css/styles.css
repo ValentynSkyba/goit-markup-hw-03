@@ -6,6 +6,36 @@ body {
   background: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Top Line */
 
 .logo {
@@ -79,6 +109,10 @@ body {
   background-color: #2e2f42;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 .main-info {
   font-size: 56px;
   font-weight: 700;
@@ -88,7 +122,22 @@ body {
   color: #ffffff;
 }
 
-.button {
+/* Hidden H2 */
+.h2hiiden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.target-list .button {
   background: #4d5ae5;
   color: #fff;
   font-size: 16px;
@@ -126,9 +175,6 @@ body {
 }
 
 /* Section 3 Team */
-.team {
-  background: #f4f4fd;
-}
 
 .team-head {
   color: #2e2f42;
@@ -138,10 +184,12 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  background: #f4f4fd;
 }
 
 .team-list {
   list-style-type: none;
+  background: #f4f4fd;
 }
 
 .team-list-photo {
