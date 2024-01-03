@@ -56,6 +56,7 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo-black {
@@ -77,11 +78,14 @@ img {
   letter-spacing: 0.32px;
   list-style-type: none;
   display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
 .nav-link {
   text-decoration: none;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -101,7 +105,6 @@ img {
 
 .adress {
   font-style: normal;
-  display: flex;
 }
 
 .adress-list {
@@ -110,6 +113,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
   list-style-type: none;
+  display: flex;
+  gap: 40px;
 }
 
 .adress-link {
