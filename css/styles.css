@@ -110,6 +110,10 @@ img {
 
 .adress {
   font-style: normal;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 0;
+  margin-left: auto;
 }
 
 .adress-list {
@@ -141,6 +145,11 @@ img {
   padding: 120px 0;
 }
 
+.main-position {
+  padding: 188px 0 188px;
+  max-width: 496px;
+}
+
 .main-info {
   font-size: 56px;
   font-weight: 700;
@@ -148,6 +157,7 @@ img {
   letter-spacing: 1.12px;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 48px;
 }
 
 /* Hidden H2 */
@@ -158,11 +168,20 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .target-list .button {
