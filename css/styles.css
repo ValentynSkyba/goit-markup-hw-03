@@ -255,10 +255,15 @@ header div {
 
 .team-list {
   list-style-type: none;
-  display: inline-flex;
   margin-bottom: 120px;
   text-align: center;
   gap: 24px;
+  display: flex;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.div.team-box {
+  padding: 32px 0;
 }
 
 .team-list-photo {
