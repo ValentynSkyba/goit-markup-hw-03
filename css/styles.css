@@ -27,18 +27,20 @@ ol {
 img {
   display: block;
 }
-
-.container {
+/* before 04.01.2023
+ .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-}
+} */
 
-.section {
-  padding: 120px 0;
+.container {
+  width: 1158px;
+  padding-left: 0 15px;
+  margin: 0 156px;
 }
 
 /* Header */
@@ -50,7 +52,7 @@ img {
   display: flex;
 }
 
-.header-container {
+header div {
   display: flex;
 }
 
@@ -70,6 +72,7 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
+  padding: 25.5px 0;
 }
 
 .logo-black {
@@ -98,6 +101,7 @@ img {
   text-decoration: none;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 
 .nav-link:hover,
@@ -111,14 +115,13 @@ img {
   text-decoration: underline;
 }
 
-.nav .nav-link {
+/*.nav .nav-link {
   display: block;
-}
+}*/
 
 .adress {
   font-style: normal;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding: 24px 0;
   margin-right: 0;
   margin-left: auto;
 }
@@ -136,6 +139,7 @@ img {
 .adress-link {
   color: #434455;
   text-decoration: none;
+  width: 1440px;
 }
 
 .adress-link:hover,
@@ -143,7 +147,11 @@ img {
   color: #404bbf;
 }
 
-/* Main page 1 Section */
+/* Main page */
+
+.section {
+  padding: 120px 0;
+}
 
 .main {
   background-color: #2e2f42;
@@ -157,7 +165,10 @@ img {
   letter-spacing: 1.12px;
   color: #ffffff;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 496px;
+  text-align: center;
 }
 
 .button {
@@ -168,6 +179,8 @@ img {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button:hover,
@@ -175,7 +188,7 @@ img {
   background-color: #404bbf;
 }
 
-/* Section 2 Target */
+/* Section 1 Target */
 
 /* Hidden H2 */
 .h2hiiden {
@@ -190,24 +203,16 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.target-list .button {
-  background: #4d5ae5;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-  cursor: pointer;
+
+.target-ul {
+  list-style-type: none;
   display: flex;
   gap: 24px;
 }
 
-.target-ul {
-  list-style-type: none;
-}
-
 .target-li {
   width: calc((100% - 72px) / 4);
+  gap: 24px;
 }
 
 .target-h {
@@ -227,7 +232,11 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* Section 3 Team */
+/* Section 2 Our Team */
+
+.section-2 {
+  background: #f4f4fd;
+}
 
 .team-head {
   color: #2e2f42;
@@ -237,12 +246,16 @@ img {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  background: #f4f4fd;
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .team-list {
   list-style-type: none;
-  background: #f4f4fd;
+  display: inline-flex;
+  margin-bottom: 120px;
+  text-align: center;
+  gap: 24px;
 }
 
 .team-list-photo {
@@ -256,6 +269,14 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
+.team-list-photo h3 {
+  margin-top: 32px;
+  margin-bottom: 8;
+}
+
+.team-list-photo p {
+  margin-bottom: 32px;
+}
 
 .team-par {
   color: #434455;
@@ -265,20 +286,37 @@ img {
   letter-spacing: 0.32px;
 }
 
-/* Section 4 Portfolio */
+/* Section 3 Portfolio */
 
-portfolio-head {
+.section-3 {
+  background: #fff;
+  width: 1440px;
+}
+
+.portfolio-head {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.72px;
-  text-transform: capitalize;
+  margin-top: 120px;
+  margin-bottom: 72px;
 }
 
-.portfolio-list {
+.portfolio-ul {
   list-style-type: none;
+  display: flex;
+  width: 360px;
+  height: 420px;
+  padding-bottom: 32px;
+  gap: 32px;
+}
+
+.portfolio-li {
+  gap: 32px;
+  flex-shrink: 0;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-name {
@@ -287,6 +325,7 @@ portfolio-head {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin: 32px auto 8px 16px;
 }
 
 .portfolio-par {
@@ -295,13 +334,26 @@ portfolio-head {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin: 8px auto 32px 16px;
 }
 
 /* footer (logo in the Top line) */
-.footer {
+.footer-class {
   background-color: #2e2f42;
 }
-.footer-par {
+
+footer .logo {
+  margin: 100px auto 16px 156px;
+}
+
+footer p {
+  margin: 16px auto 100px 156px;
+  width: 264px;
+}
+
+margin: 100px auto 16px 156px;
+
+footer .logo .footer-par {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
