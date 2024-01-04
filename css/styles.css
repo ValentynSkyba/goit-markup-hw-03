@@ -156,6 +156,7 @@ header div {
 .main {
   background-color: #2e2f42;
   padding: 188px 0;
+  margin: 0 auto;
 }
 
 .main-info {
@@ -291,6 +292,7 @@ header div {
 .section-3 {
   background: #fff;
   width: 1440px;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-head {
@@ -311,12 +313,20 @@ header div {
   height: 420px;
   padding-bottom: 32px;
   gap: 32px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-li {
   gap: 32px;
   flex-shrink: 0;
   border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
+}
+
+.port-block {
+  ?????/
 }
 
 .portfolio-name {
@@ -325,7 +335,6 @@ header div {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  margin: 32px auto 8px 16px;
 }
 
 .portfolio-par {
@@ -334,24 +343,21 @@ header div {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin: 8px auto 32px 16px;
 }
 
 /* footer (logo in the Top line) */
 .footer-class {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 footer .logo {
-  margin: 100px auto 16px 156px;
+  display: inline-block;
 }
 
 footer p {
-  margin: 16px auto 100px 156px;
   width: 264px;
 }
-
-margin: 100px auto 16px 156px;
 
 footer .logo .footer-par {
   color: #f4f4fd;
