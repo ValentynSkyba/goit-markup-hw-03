@@ -47,11 +47,11 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .head-position {
   display: flex;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 header div {
