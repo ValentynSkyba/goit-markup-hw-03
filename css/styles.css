@@ -236,8 +236,9 @@ header div {
 
 /* Section 2 Our Team */
 
-.section-2 {
+.section-team {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-head {
@@ -290,7 +291,7 @@ header div {
 
 /* Section 3 Portfolio */
 
-.section-3 {
+.section-our {
   background: #fff;
   width: 1440px;
   padding: 120px 0 120px 0;
@@ -322,6 +323,7 @@ header div {
 .port-block {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-li {
