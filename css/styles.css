@@ -50,6 +50,8 @@ img {
 }
 .head-position {
   display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 header div {
@@ -325,10 +327,6 @@ header div {
   width: calc((100% - 48px) / 3);
 }
 
-.port-block {
-  ?????/
-}
-
 .portfolio-name {
   color: #2e2f42;
   font-size: 20px;
@@ -353,6 +351,7 @@ header div {
 
 footer .logo {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 footer p {
