@@ -260,6 +260,7 @@ header div {
   gap: 24px;
   display: flex;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .div.team-box {
@@ -276,6 +277,7 @@ header div {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .team-list-photo h3 {
   margin-top: 32px;
