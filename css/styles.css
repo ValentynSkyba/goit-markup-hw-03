@@ -270,7 +270,7 @@ header div {
 .team-list-photo {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  width: calc(100% - 3 * 24px) / 4;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-name {
