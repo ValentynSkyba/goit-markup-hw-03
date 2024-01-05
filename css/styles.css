@@ -260,15 +260,17 @@ header div {
   gap: 24px;
   display: flex;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
 }
 
-.div.team-box {
-  padding: 32px 0;
+.team-box {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-list-photo {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px);
 }
 
 .team-name {
@@ -280,12 +282,7 @@ header div {
   margin-bottom: 8px;
 }
 .team-list-photo h3 {
-  margin-top: 32px;
   margin-bottom: 8;
-}
-
-.team-list-photo p {
-  margin-bottom: 32px;
 }
 
 .team-par {
