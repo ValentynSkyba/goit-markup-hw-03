@@ -39,7 +39,7 @@ img {
 
 .container {
   width: 1158px;
-  padding-left: 0 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -183,6 +183,12 @@ header div {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: #ffffff;
 }
 
 .button:hover,
@@ -249,13 +255,11 @@ header div {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
 .team-list {
   list-style-type: none;
-  margin-bottom: 120px;
   text-align: center;
   gap: 24px;
   display: flex;
@@ -295,7 +299,6 @@ header div {
 
 .section-our {
   background: #fff;
-  width: 1440px;
   padding: 120px 0 120px 0;
 }
 
@@ -306,7 +309,6 @@ header div {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.72px;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -355,9 +357,22 @@ header div {
   padding: 100px 0;
 }
 
-footer .logo {
+.logo-footer {
   display: inline-block;
-  margin-bottom: 16px;
+  width: 44px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: center;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 17.5px;
 }
 
 footer p {
